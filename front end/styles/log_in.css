@@ -1,0 +1,53 @@
+.container {
+  display: flexbox;
+  width: 600px;
+  height: 300px;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 15px;
+  padding: 50px;
+  margin-top: 175px;
+  margin-left: 500px;
+  box-shadow: 5px 5px 20px 5px whitesmoke, -5px -5px 20px 5px whitesmoke;
+  background-color: #0096c7;
+}
+
+.form_div {
+  text-align: right;
+  padding-right: 50px;
+}
+
+.head {
+  font-style: italic;
+  word-spacing: 1.5px;
+  padding-right: 60px;
+  font-size: xx-large;
+  margin-top: 10px;
+}
+
+.name {
+  padding-right: 106px;
+}
+
+#username {
+  width: 200px;
+  height: 30px;
+  border-radius: 12px;
+}
+
+#password {
+  width: 200px;
+  height: 30px;
+  border-radius: 12px;
+}
+
+.login:hover {
+  background-color: aqua;
+}
+
+.login {
+  border-radius: 5px;
+  width: 75px;
+  height: 40px;
+  margin-right: 70px;
+}
